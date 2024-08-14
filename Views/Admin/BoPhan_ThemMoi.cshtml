@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="BoPhan_ThemMoi" method="post" asp-controller="Admin">
+    <div class="form-group">
+        <label for="MaBP">Mã bộ phận</label>
+        <input type="text" class="form-control" id="MaBP" name="MaBP" />
+    </div>
+    <div class="form-group">
+        <label for="TenBP">Tên bộ phận</label>
+        <input type="text" class="form-control" id="TenBP" name="TenBP" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+</form>
+
+
+ @* @model QuanLyBanGiay.Models.BoPhan
+@{
+    ViewData["Title"] = "Thêm mới Bộ Phận";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="sTenBP" class="control-label"></label>
+        <input asp-for="sTenBP" class="form-control" />
+        <span asp-validation-for="sTenBP" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Verified" class="control-label"></label>
+        <input asp-for="Verified" class="form-control" />
+        <span asp-validation-for="Verified" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Thêm mới" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+ *@

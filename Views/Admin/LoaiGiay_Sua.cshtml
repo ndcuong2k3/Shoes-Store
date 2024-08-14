@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="LoaiGiay_Sua_Handle" asp-controller="Admin">
+    <span>Mã loại giày</span>
+    <input type="text" name="MaLoaiGiay" value="@ViewBag.MaLoaiGiay" readonly /> <br />
+    <span>Tên loại giày</span>
+    <input type="text" name="TenLoaiGiay" /> <br />
+
+    <input type="submit" value="Cập nhật" />
+</form>
+

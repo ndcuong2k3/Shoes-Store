@@ -1,0 +1,33 @@
+﻿@model QuanLyBanGiay.Models.PhieuNhapKho
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Thêm mới phiếu nhập kho</h2>
+
+<form asp-action="PhieuNhapKho_ThemMoi" method="post" asp-controller="Admin">
+    <div class="form-group">
+        <label asp-for="iMaNV">Nhân viên:</label>
+        <select asp-for="iMaNV" class="form-control" asp-items="@ViewBag.NhanViens"></select>
+        <span asp-validation-for="iMaNV" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="iMaNCC">Nhà cung cấp:</label>
+        <select asp-for="iMaNCC" class="form-control" asp-items="@ViewBag.NhaCungCaps"></select>
+        <span asp-validation-for="iMaNCC" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="dNgayLap">Ngày lập:</label>
+        <input asp-for="dNgayLap" class="form-control" />
+        <span asp-validation-for="dNgayLap" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+</form>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var today = new Date().toISOString().split('T')[0];
+        alert( new Date().toISOString().toString())
+        document.getElementById('dNgayLap').value = today;
+    });
+</script>

@@ -1,0 +1,189 @@
+﻿@{
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+ @model List<Giay> 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .news-1 {
+        flex: 0 1 calc(25% - 40px); /* 25% width for each item with 20px gap between items */
+        /* margin-bottom: 20px;  */
+        margin: 20px;
+    }
+
+    fieldset {
+        width: 100%;
+        border: none;
+        /*   padding:50px; */
+        background-color: #f9f9f9;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+        fieldset img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+    .TenGiay {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .Gia {
+        color: green;
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-decoration: line-through;
+    }
+
+    .GiaKhuyenMai {
+        color: red; /* Màu sắc cho giá khuyến mãi */
+        font-size: 16px; /* Kích thước chữ cho giá khuyến mãi */
+        margin-bottom: 10px; /* Khoảng cách giữa giá khuyến mãi và nút mua */
+    }
+
+    .button, .button-buy, .button-add-cart {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+
+        .button:hover, .button-buy:hover, .button-add-cart:hover {
+            background-color: #0056b3;
+        }
+
+    .button-buy {
+        background-color: #28a745;
+    }
+
+    .button-add-cart {
+        background-color: #ffc107;
+    }
+
+    .TimKiem {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .navigation-bar{
+        display: block;
+        margin-left: 150px;
+        margin-top: 50px
+    }
+
+    .navigation-bar a{
+       text-decoration:none;
+       font-size: 20px;
+    }
+</style>
+
+<style type="text/css" media="screen and (max-width:767px)">
+    .news-1 {
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: calc(100% - 20px);
+    }
+</style>
+
+<div class="navigation-bar">
+    <a asp-action="Index" asp-controller="home">
+        Trang chủ > 
+    </a>
+    <a asp-action="Nam" asp-controller="home">
+       Nam
+    </a>
+</div>
+
+<form asp-action="Nam" asp-controller="home" method="post">
+    <div class="TimKiem">
+        <span>Tên giày: </span>
+        <input type="text" placeholder="Nhập tên giày" style="height:37.6px" name="TenGiay">
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </div>
+</form>
+
+
+
+<div class="container">
+    @foreach (var giay in Model)
+    {
+        <div class="news-1">
+            <fieldset>
+                <img src="@Url.Content(giay.sImageUrl)" alt="Ảnh giày">
+                <p class="TenGiay"> <a asp-action="ChiTietGiay" asp-controller="home" asp-route-id="@giay.iMaGiay"> @giay.sTenGiay</a></p>
+                <p class="Gia" style="text-decoration:none">Giá: @giay.iGia VNĐ</p>
+                @* <p class="GiaKhuyenMai">Giá khuyến mãi: @giay.iGiaKM VNĐ</p> *@
+                @* <button class="button" onclick="window.location.href='Chitiettintuc.aspx?ID=1'">Xem Thêm</button> *@
+                <button class="button-buy" data-magiay="@giay.iMaGiay" data-imgurl="@Url.Content(giay.sImageUrl)">Mua Ngay</button>
+                @* <button class="button-add-cart">Thêm vào Giỏ Hàng</button> *@
+                <button class="button-add-cart" data-magiay="@giay.iMaGiay" data-imgurl="@Url.Content(giay.sImageUrl)"><i class="bi bi-cart-plus"></i></button>
+            </fieldset>
+        </div>
+    }
+</div>
+
+
+
+<script>
+    
+    $(function () {
+        $('.button-add-cart').click(function () {
+            var productId = $(this).data('magiay');
+            var ImgUrl = $(this).data('imgurl');
+            //alert(productId);
+            // Gửi mã sản phẩm productId đến server để thêm vào giỏ hàng
+            $.post('/Home/GioHang_Them', { productId: productId, imageUrl: ImgUrl }, function (response) {
+                if (response.success) {
+                    alert('Đã thêm sản phẩm vào giỏ hàng!');
+                } else {
+                    if (response.message == "TenTK") {
+                        alert('Đăng nhập để thêm sản phẩm vào giỏ hàng!');
+                        window.location.href = '/Home/DangNhap';
+                    }
+                    // alert('Thêm sản phẩm vào giỏ hàng thất bại!');
+                }
+            });
+        });
+
+
+        $('.button-buy').click(function () {
+            var productId = $(this).data('magiay');
+            var ImgUrl = $(this).data('imgurl');
+
+            // Gửi mã sản phẩm productId đến server để thêm vào giỏ hàng
+            $.post('/Home/MuaNgay', { productId: productId, imageUrl: ImgUrl }, function (response) {
+                if (response.success) {
+                    alert('Đã thêm sản phẩm vào giỏ hàng!');
+                    window.location.href = '/Home/ThanhToan';
+                } else {
+                    alert('Thêm sản phẩm vào giỏ hàng thất bại!');
+                }
+            });
+        });
+
+    });
+
+</script>
+

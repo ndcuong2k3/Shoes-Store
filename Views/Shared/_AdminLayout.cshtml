@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - QuanLyBanGiay</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   @*  <link rel="stylesheet" href="~/CSS/Admin.css" asp-append-version="true" /> *@
+    @* <link href="~/CSSFile/Admin.css" rel="stylesheet" /> *@
+    @* <link rel="stylesheet" href="~/QuanLyBanGiay.styles.css" asp-append-version="true" /> *@
+    <style>
+
+
+         .slide-bar{
+            padding-top:10px;
+            background-color:black;
+           /*  height:100vh; */
+        } 
+
+        .slide-bar a{
+   
+            color:white;
+            display: block;
+            text-decoration:none;
+        }
+         .container-page{
+            display:grid;
+            grid-template-columns: 20% 80%;
+        } 
+
+        .slide-bar a:hover{
+            background-color:white;
+            color:black;
+        }
+
+        #title{
+            padding-top:30px;
+            color:white;
+            margin-left:40px;
+        }
+
+        .QL a {
+            padding: 10px;
+            display: block;
+            color: white;
+            text-decoration: none;
+        }
+
+            .QL a:hover {
+                background-color: white; /* Màu nền khi hover */
+                color: black;
+            }
+
+            .QL a::before {
+                content: ""; /* Tạo một phần padding bên trái */
+                display: inline-block;
+                width: 70px; /* Độ rộng của padding */
+            }
+
+
+        
+    </style>
+
+    <style type="text/css" media="screen and (min-width:768px)">
+
+    </style>
+
+      <style type="text/css" media="screen and (max-width:767px)">
+          .container-page{
+              grid-template-columns: 1fr          }
+
+           .tits{
+               margin-top: 50px;
+           }
+      </style>
+</head>
+<body>
+    
+
+    <div class="container-page">
+        
+        <div class="slide-bar">
+            <center>
+                <img src="@Url.Content("~/image/logo.png")" style="width:100px; text-align:center" />
+            </center>
+            <p id="title">Quản lý</p>
+            <div class="QL">
+                <a style=" padding:10px" asp-controller="Admin" asp-action="NhaCungCap">Nhà cung cấp</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="BoPhan">Bộ phận</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="NhanVien">Nhân viên</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="KhachHang">Khách hàng</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="Giay">Giày</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="LoaiGiay">Loại giày</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="Kho">Kho</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="PhieuNhapKho">Phiếu nhập kho</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="ChiTietPhieuNhapKho">Chi tiết phiếu nhập kho</a>
+                @* <a style="text-align:center; padding:10px" asp-controller="Admin" asp-action="DonHang">Đơn hàng</a> *@
+                <a style=" padding:10px" asp-controller="Admin" asp-action="HoaDon">Hóa đơn</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="ChiTietHD">Chi tiết hóa đơn</a>
+                <a style=" padding:10px" asp-controller="Admin" asp-action="TaiKhoan">Tài khoản</a>
+
+            </div>
+            <p id="title">Cửa hàng</p>
+            <div class="QL">
+                <a style=" padding:10px" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                <a style=" padding:10px" asp-controller="Home" asp-action="GiamGia">Giảm giá</a>
+                <a style=" padding:10px" asp-controller="Home" asp-action="Nam">Nam</a>
+                <a style=" padding:10px" asp-controller="Home" asp-action="Nu">Nữ</a>
+            </div>
+         
+        </div>
+        <div class="container">
+            <header>
+                <center>
+                    <p style="padding-top:15px;color:white;background-color:black; padding-bottom: 15px" class="tits">Admin</p>
+                </center>
+                <hr />
+            </header>
+
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+  
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - QuanLyBanGiay - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data" class="mt-4">
+    <div class="form-group">
+        <label for="MaGiay">Mã giày</label>
+        <input type="text" class="form-control" id="MaGiay" name="MaGiay" />
+    </div>
+   
+    <div class="form-group">
+        <label for="MaNCC">Mã nhà cung cấp</label>
+        <input type="text" class="form-control" id="MaNCC" name="MaNCC" />
+    </div>
+    <div class="form-group">
+        <label for="TenGiay">Tên giày</label>
+        <input type="text" class="form-control" id="TenGiay" name="TenGiay" />
+    </div>
+    <div class="form-group">
+        <label for="Anh">Ảnh giày</label>
+        <input type="file" class="form-control-file" id="Anh" name="Anh" />
+    </div>
+    <div class="form-group">
+        <label for="Size">Size</label>
+        <input type="text" class="form-control" id="Size" name="Size" />
+    </div>
+    <div class="form-group">
+        <label for="SoLuong">Số lượng</label>
+        <input type="text" class="form-control" id="SoLuong" name="SoLuong" />
+    </div>
+    <div class="form-group">
+        <label for="GiaNhap">Giá Nhập</label>
+        <input type="text" class="form-control" id="GiaNhap" name="GiaNhap" />
+    </div>
+
+    <div id="additionalFields" class="form-group">
+       
+    </div>
+
+     <button type="button" class="btn btn-primary" id="addFields">Thêm Size, Số lượng, Giá Nhập</button> 
+
+    <div class="form-group">
+        <label for="Gia">Giá</label>
+        <input type="text" class="form-control" id="Gia" name="Gia" />
+    </div>
+   
+    <div class="form-group">
+        <label for="MaLG">Mã loại giày</label>
+        <input type="text" class="form-control" id="MaLG" name="MaLG" />
+    </div>
+    
+    <div class="form-group">
+        <label for="GiaKM">Giá KM</label>
+        <input type="text" class="form-control" id="GiaKM" name="GiaKM" />
+    </div>
+    <div class="form-group">
+        <label for="MoTa">Mô tả</label>
+        <input type="text" class="form-control" id="MoTa" name="MoTa" />
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+</form>
+
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+        $('#addFields').click(function () {
+            // Tạo ra các phần tử mới cho size và số lượng
+            var labelSize = $('<label>').attr('for', 'Size').text('Size:');
+            var sizeInput = $('<input>').attr({ type: 'text', class: 'form-control', name: 'Size', placeholder: 'Size' });
+
+            var labelSoLuong = $('<label>').attr('for', 'SoLuong').text('Số lượng:');
+            var soLuongInput = $('<input>').attr({ type: 'text', class: 'form-control', name: 'SoLuong', placeholder: 'Số lượng' });
+
+            var labelGiaNhap = $('<label>').attr('for', 'GiaNhap').text('Giá Nhập:');
+            var giaNhapInput = $('<input>').attr({ type: 'text', class: 'form-control', name: 'GiaNhap', placeholder: 'Giá Nhập' });
+
+            // Thêm các phần tử mới vào phần tử div chứa các trường nhập
+            var newInputGroup = $('<div>').addClass('form-group').append(labelSize).append(sizeInput).append(labelSoLuong).append(soLuongInput).append(labelGiaNhap).append(giaNhapInput);
+            $('#additionalFields').append(newInputGroup);
+        });
+    });
+</script>

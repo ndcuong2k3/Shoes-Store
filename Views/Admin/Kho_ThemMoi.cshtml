@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@* <form method="post" asp-action="Kho_ThemMoi" asp-controller="Admin">
+    <div class="form-group">
+        <label for="MaNCC">Mã NCC</label>
+        <input type="text" name="MaNCC" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="MaGiay">Mã Giày</label>
+        <input type="text" name="MaGiay" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="Size">Size</label>
+        <input type="text" name="Size" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="SoLuongKho">Số Lượng Kho</label>
+        <input type="text" name="SoLuongKho" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="GiaNhap">Giá Nhập</label>
+        <input type="text" name="GiaNhap" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+</form> *@
+@model QuanLyBanGiay.Models.Kho
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- Form sửa Kho -->
+<form method="post" asp-action="Kho_ThemMoi" asp-controller="Admin">
+    <div class="form-group">
+        <label asp-for="iMaNCC">Mã NCC</label>
+        <input asp-for="iMaNCC" name="iMaNCC" value="@ViewBag.MaNCC" class="form-control" />
+        <span asp-validation-for="iMaNCC" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="iMaGiay">Mã Giày</label>
+        <input asp-for="iMaGiay" value="@ViewBag.MaGiay" name="iMaGiay" class="form-control" />
+        <span asp-validation-for="iMaGiay" class="text-danger"></span>
+       
+    </div>
+    <div class="form-group">
+        <label asp-for="iSize">Size</label>
+        <input asp-for="iSize" name="iSize" value="@ViewBag.Size" class="form-control" />
+        <span asp-validation-for="iSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="iSoLuongKho">Số Lượng Kho</label>
+        <input asp-for="iSoLuongKho" name="iSoLuongKho" value="@ViewBag.SoLuong" class="form-control" />
+        <span asp-validation-for="iSoLuongKho" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="iGiaNhap">Giá Nhập</label>
+        <input asp-for="iGiaNhap" name="iGiaNhap" value="@ViewBag.GiaNhap" class="form-control" />
+        <span asp-validation-for="iGiaNhap" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

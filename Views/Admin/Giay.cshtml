@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@* @model List<Giay> *@
+@model IEnumerable<dynamic>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã Giày</th>
+            <th style="text-align:center">Tên Giày</th>
+            <th style="text-align:center">Giá</th>
+            <th style="text-align:center">Giá KM</th>
+            <th style="text-align:center">Nhà cung cấp</th>
+            <th style="text-align:center">Ảnh</th>
+            <th style="text-align:center">Thao tác</th>
+
+        </tr>
+        @foreach (@* Giay giay in Model *@ var a in Model)
+        {
+            <tr>
+                <td>
+                    @a.MaGiay
+                </td>
+                <td>
+                    @a.TenGiay
+                </td>
+                <td>
+                    @a.Gia
+                </td>
+
+                <td>
+                    @* @giay.iSoLuong *@
+                    @a.GiaKM
+                </td>
+              <td>
+                  @a.NCC
+              </td>
+                <td>
+                   <center>
+                        <img style="width:200px; height:auto" src="@Url.Content(a.Anh)" />
+                   </center>
+                  
+                </td>
+
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="Giay_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaGiay" value="@a.MaGiay" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="Giay_Sua" asp-controller="Admin" asp-route-MaGiay="@a.MaGiay" asp-route-TenGiay="@a.TenGiay" asp-route-MaNCC="@a.MaNCC"
+                    asp-route-MaLG="@a.MaLG" asp-route-MoTa="@a.MoTa" asp-route-Gia ="@a.Gia", asp-route-GiaKM="@a.GiaKM"
+                    style="text-decoration:none; color:white;" class="btn btn-primary">Cập nhật</a>
+
+                </td>
+
+            </tr>
+        }
+    </table>
+
+
+
+<a href="~/Admin/Giay_ThemMoi" class="btn btn-primary">Thêm mới</a>

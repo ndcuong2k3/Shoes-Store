@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<h2>Thêm mới Chi Tiết Phiếu Nhập Kho</h2>
+
+<form asp-action="ChiTietPhieuNhapKho_ThemMoi" method="post" asp-controller="Admin">
+    <div class="form-group">
+        <label for="iMaPNK" class="control-label">Mã phiếu nhập kho</label>
+        <select name="iMaPNK" class="form-control" asp-items="@ViewBag.MaPNKs"></select>
+      @*   <input name="iMaPNK" class="form-control" /> *@
+
+    </div>
+    <div class="form-group">
+        <label for="iMaGiay" class="control-label">Mã giày</label>
+       @*  <input name="iMaGiay" class="form-control" /> *@
+        <select name="iMaGiay" class="form-control" asp-items="@ViewBag.MaGiays"></select>
+
+    </div>
+    <div class="form-group">
+        <label for="iSize" class="control-label">Size</label>
+        <input name="iSize" class="form-control" />
+    
+    </div>
+    <div class="form-group">
+        <label for="iSlNhap" class="control-label">Số lượng</label>
+        <input name="iSlNhap" class="form-control" />
+   
+    </div>
+    <div class="form-group">
+        <label for="iGiaNhap" class="control-label">Giá nhập</label>
+        <input name="iGiaNhap" class="form-control" />
+
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+</form>

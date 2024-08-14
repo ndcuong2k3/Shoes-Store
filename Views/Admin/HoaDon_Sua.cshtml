@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="HoaDon_Sua_Handle" asp-controller="Admin">
+    <span>Mã hóa đơn</span>
+    <input type="text" name="MaHD" value="@ViewBag.MaHD" readonly /> <br />
+
+    <span>Mã nhân viên</span>
+    <input type="text" name="MaNV" /> <br />
+
+    <span>Mã khách hàng</span>
+    <input type="text" name="MaKH" /> <br />
+
+    <span>Ngày lập</span>
+    <input type="date" name="NgayLap" /> <br />
+
+    <input type="submit" value="Cập nhật" />
+</form>
+

@@ -1,0 +1,280 @@
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\appsettings.Development.json
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\appsettings.json
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\QuanLyBanGiay.staticwebassets.runtime.json
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\QuanLyBanGiay.exe
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\QuanLyBanGiay.deps.json
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\QuanLyBanGiay.runtimeconfig.json
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\QuanLyBanGiay.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\QuanLyBanGiay.pdb
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfoInputs.cache
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfo.cs
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.csproj.CoreCompileInputs.cache
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cache
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cs
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\staticwebassets.build.json
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\staticwebassets.development.json
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\staticwebassets\msbuild.QuanLyBanGiay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\staticwebassets\msbuild.build.QuanLyBanGiay.props
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuanLyBanGiay.props
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuanLyBanGiay.props
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\scopedcss\bundle\QuanLyBanGiay.styles.css
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\scopedcss\projectbundle\QuanLyBanGiay.bundle.scp.css
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.dll
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\refint\QuanLyBanGiay.dll
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.pdb
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.genruntimeconfig.cache
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\ref\QuanLyBanGiay.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Azure.Core.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Azure.Identity.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project\QuanLyBanGiay\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.csproj.AssemblyReference.cache
+D:\Project\QuanLyBanGiay\obj\Debug\net8.0\QuanLyBanGiay.csproj.CopyComplete
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\appsettings.json
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.staticwebassets.runtime.json
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.exe
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.deps.json
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.runtimeconfig.json
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.pdb
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Azure.Core.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Azure.Identity.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Memory.Data.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.AssemblyReference.cache
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfoInputs.cache
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfo.cs
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.CoreCompileInputs.cache
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cache
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cs
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.QuanLyBanGiay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.build.QuanLyBanGiay.props
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuanLyBanGiay.props
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuanLyBanGiay.props
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\scopedcss\bundle\QuanLyBanGiay.styles.css
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\scopedcss\projectbundle\QuanLyBanGiay.bundle.scp.css
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.CopyComplete
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\refint\QuanLyBanGiay.dll
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.pdb
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.genruntimeconfig.cache
+D:\BTL THWNC\QuanLyBanGiay (1)\obj\Debug\net8.0\ref\QuanLyBanGiay.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\appsettings.Development.json
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\appsettings.json
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.staticwebassets.runtime.json
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.exe
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.deps.json
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.runtimeconfig.json
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\QuanLyBanGiay.pdb
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Azure.Core.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Azure.Identity.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Memory.Data.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\QuanLyBanGiay (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.AssemblyReference.cache
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfoInputs.cache
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfo.cs
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.CoreCompileInputs.cache
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.MvcApplicationPartsAssemblyInfo.cache
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cache
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cs
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets.build.json
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets.development.json
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.QuanLyBanGiay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.build.QuanLyBanGiay.props
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuanLyBanGiay.props
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuanLyBanGiay.props
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\staticwebassets.pack.json
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\scopedcss\bundle\QuanLyBanGiay.styles.css
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\scopedcss\projectbundle\QuanLyBanGiay.bundle.scp.css
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.CopyComplete
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.dll
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\refint\QuanLyBanGiay.dll
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.pdb
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\QuanLyBanGiay.genruntimeconfig.cache
+D:\QuanLyBanGiay (1)\obj\Debug\net8.0\ref\QuanLyBanGiay.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\appsettings.Development.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\appsettings.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\QuanLyBanGiay.staticwebassets.runtime.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\QuanLyBanGiay.exe
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\QuanLyBanGiay.deps.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\QuanLyBanGiay.runtimeconfig.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\QuanLyBanGiay.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\QuanLyBanGiay.pdb
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Azure.Core.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Azure.Identity.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.Memory.Data.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.AssemblyReference.cache
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfoInputs.cache
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.AssemblyInfo.cs
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.CoreCompileInputs.cache
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.MvcApplicationPartsAssemblyInfo.cache
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cache
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.RazorAssemblyInfo.cs
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\staticwebassets.build.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\staticwebassets.development.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\staticwebassets\msbuild.QuanLyBanGiay.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\staticwebassets\msbuild.build.QuanLyBanGiay.props
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuanLyBanGiay.props
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuanLyBanGiay.props
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\staticwebassets.pack.json
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\scopedcss\bundle\QuanLyBanGiay.styles.css
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\scopedcss\projectbundle\QuanLyBanGiay.bundle.scp.css
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.csproj.CopyComplete
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\refint\QuanLyBanGiay.dll
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.pdb
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\QuanLyBanGiay.genruntimeconfig.cache
+D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\obj\Debug\net8.0\ref\QuanLyBanGiay.dll

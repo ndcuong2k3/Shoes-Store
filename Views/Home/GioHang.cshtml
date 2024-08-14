@@ -1,0 +1,148 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+@model IEnumerable<dynamic>
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-danger" role="alert" style="margin-top:100px; text-align:center">
+        Chưa có sản phẩm nào trong giỏ hàng
+    </div>
+}
+else
+{
+    <style>
+    .td {
+        text-align: center;
+    }
+    </style>
+
+<h1 style="text-align:center">Giỏ Hàng</h1>
+
+<table class="table table-bordered" id="dataTable">
+    <thead>
+        <tr>
+            <th>Ảnh</th>
+            <th>Tên Giày</th>
+            <th>Size</th>
+            <th>Giá</th>
+            <th>Số Lượng</th>
+            <th>Thành Tiền</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+           
+            <tr>
+                
+                <td><img src="@Url.Content(item.AnhGiay)" style="width:100px; height:auto" /> </td>
+                <td>@item.TenGiay</td>
+                <td>
+                    <span class="magiohang" style="display:none">@item.MaGioHang</span>
+                    <span class="size-span">@item.Size</span>
+                    <select class="form-control size-select" style="display:none"></select>
+                </td>
+                <td>@item.Gia</td>
+                <td>
+                    <span class="quantity-span">@item.SoLuong</span>
+                    <input type="number" class="form-control quantity-input" value="@item.SoLuong" style="display:none" />
+                </td>
+                <td>@(item.Gia * item.SoLuong)</td>
+                <td>
+                    <button type="button" class="btn btn-danger remove-button" data-magiay-remov="@item.MaGiay" data-makh-remov="@item.MaKH">Xóa</button>
+                    <button type="button" class="btn btn-primary update-item-button">Cập nhật</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+    decimal total = Model.Sum(item => (decimal)item.Gia * (decimal)item.SoLuong);
+
+
+
+<h4 id="total">Tổng tiền: @total VNĐ</h4>
+
+<a asp-action="ThanhToan" asp-controller="home" class="button button-primary">Thanh toán</a>
+<script>
+    $(function () {
+
+        $('.remove-button').click(function () {
+            var MaGiay = $(this).data('magiay-remov');
+            var MaKH = $(this).data('makh-remov');
+
+            $.post('/Home/GioHang_Xoa', { MGiay: MaGiay, MKH: MaKH }, function (response) {
+                if (response.success) {
+                    alert('Remove Successful!');
+                    window.location.href = '/Home/GioHang';
+                } else {
+                    alert('Remove Fail!');
+                }
+            });
+        });
+
+        $('.update-item-button').click(function () {
+            var row = $(this).closest('tr');
+            var sizeSpan = row.find('.size-span');
+            var sizeSelect = row.find('.size-select');
+            var quantitySpan = row.find('.quantity-span');
+            var quantityInput = row.find('.quantity-input');
+            var magiohang = row.find('.magiohang')
+            var updateCount = row.data('update-count') || 0;
+
+            if (updateCount === 0) {
+                // Hiển thị select và input, ẩn span
+                sizeSpan.hide();
+                quantitySpan.hide();
+                sizeSelect.show();
+                quantityInput.show();
+            } else {
+                var MaGiay = row.find('.remove-button').data('magiay-remov');
+                var MaKH = row.find('.remove-button').data('makh-remov');
+                var newSize = sizeSelect.val();
+                var newQuantity = quantityInput.val();
+                var MaGioHang = magiohang.text();
+
+                $.post('/Home/GioHang_CapNhat', { MGiay: MaGiay, MKH: MaKH, Size: newSize, SoLuong: newQuantity, MGHang : MaGioHang }, function (response) {
+                    if (response.success) {
+                        alert('Cập nhật thành công!');
+                        window.location.href = '/Home/GioHang';
+                    } else {
+                        alert('Cập nhật thất bại!');
+                    }
+                });
+            }
+
+            // Tăng biến đếm lần cập nhật
+            updateCount++;
+            row.data('update-count', updateCount);
+        });
+
+        // Load danh sách size vào select box khi chọn một sản phẩm
+        $('.size-select').each(function () {
+            var row = $(this).closest('tr');
+            var productId = row.find('.remove-button').data('magiay-remov');
+
+            $.get('/Home/GetSizesByProductId', { productId: productId }, function (sizes) {
+                var selectBox = row.find('.size-select');
+                selectBox.empty(); // Xóa tất cả các option hiện có
+                sizes.forEach(function (size) {
+                    selectBox.append($('<option>', {
+                        value: size,
+                        text: size
+                    }));
+                });
+            });
+        });
+
+    });
+</script>
+
+
+}
+
+ 
+

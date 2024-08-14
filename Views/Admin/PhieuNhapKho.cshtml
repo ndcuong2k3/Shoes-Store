@@ -1,0 +1,50 @@
+﻿@model List<QuanLyBanGiay.Models.PhieuNhapKho>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="text-align:center">Danh sách phiếu nhập kho</h2>
+
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th style="text-align:center">Mã PNK</th>
+            <th style="text-align:center">Nhân viên</th>
+            <th style="text-align:center">Nhà cung cấp</th>
+            <th style="text-align:center">Ngày lập</th>
+            <th style="text-align:center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var phieuNhapKho in Model)
+        {
+            <tr>
+                <td>@phieuNhapKho.iMaPNK</td>
+                <td>@phieuNhapKho.iMaNV</td>
+                <td>@phieuNhapKho.iMaNCC</td>
+                <td>@phieuNhapKho.dNgayLap.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="PhieuNhapKho_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="id" value="@phieuNhapKho.iMaPNK" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                       @*  <a asp-action="PhieuNhapKho_Xoa" asp-controller="Admin" asp-route-id="@phieuNhapKho.iMaPNK" style="text-decoration:none; color:white;" class="border border-2 btn btn-danger">Xoa</a> *@
+                    </div>
+                    <a asp-action="PhieuNhapKho_Sua" asp-controller="Admin" asp-route-id="@phieuNhapKho.iMaPNK" style="text-decoration:none; color:white;" class="border border-2 btn btn-danger">Cập nhật</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="~/Admin/PhieuNhapKho_ThemMoi">Thêm mới</a>
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>

@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="ChiTietHD_Sua_Handle" asp-controller="Admin">
+    <span>Mã hóa đơn</span>
+    <input type="text" name="MaHD" value="@ViewBag.MaHD" readonly /> <br />
+    <span>Mã giày</span>
+    <input type="text" name="MaGiay" value="@ViewBag.MaGiay" readonly /> <br />
+    <span>Số lượng</span>
+    <input type="text" name="Sl" /> <br />
+    <span>Tiền</span>
+    <input type="text" name="Tien" /> <br />
+
+    <input type="submit" value="Cập nhật" />
+</form>

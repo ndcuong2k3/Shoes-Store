@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@*  @model IEnumerable<dynamic> *@
+ @model IEnumerable<QuanLyBanGiay.Controllers.AdminController.NhanVienModel>
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="admin" asp-action="NhanVien">
+    <span>
+        Tên NV
+    </span>
+    <input type="text" name="TenNV" />
+    <input type="submit" value="Tìm kiếm" class="btn btn-primary"/>
+</form>
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>Ma NV</th>
+            <th>Tên NV</th>
+            <th>Ngay sinhV</th>
+            <th>Gioi tinh</th>
+            <th>Que quan</th>
+            <th>Tên BP</th>
+            <th>Thao tac</th>
+        </tr>
+
+        @foreach (var nhanVien in Model)
+        {
+            <tr>
+                <td>
+                    @nhanVien.MaNhanVien
+                </td>
+
+                <td>
+                    @nhanVien.TenNhanVien
+                </td>
+                <td>
+                    @nhanVien.NgaySinh
+                </td>
+                <td>
+                    @nhanVien.GioiTinh
+                </td>
+                <td>
+                    @nhanVien.QueQuan
+                </td>
+                <td>
+                    @nhanVien.TenBoPhan
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="NhanVien_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaNhanVien" value="@nhanVien.MaNhanVien" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="NhanVien_Sua" asp-controller="Admin" asp-route-id="@nhanVien.MaNhanVien"
+                    asp-route-TenNV="@nhanVien.TenNhanVien" asp-route-NgaySinh="@nhanVien.NgaySinh" asp-route-GioiTinh="@nhanVien.GioiTinh"  asp-route-QueQuan="@nhanVien.QueQuan" asp-route-MaBP="@nhanVien.MaBP"
+                    style="text-decoration:none; color:white;" class="border border-2 btn btn-primary">Cập nhật</a>
+
+                </td>
+
+            </tr>
+        }
+    </table>
+
+
+
+<a href="~/Admin/NhanVien_ThemMoi" class="btn btn-primary">Thêm mới</a>
+
+

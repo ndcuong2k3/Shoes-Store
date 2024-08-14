@@ -1,0 +1,71 @@
+﻿@model List<ChiTietPhieuNhapKho>
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 style="text-align:center">Danh sách Chi Tiết Phiếu Nhập Kho</h2>
+
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Mã PNK
+            </th>
+            <th>
+                Mã Giày
+            </th>
+            <th>
+                Size
+            </th>
+            <th>
+                Số Lượng Nhập
+            </th>
+            <th>
+                Giá Nhập
+            </th>
+            <th>
+                Thao tác
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.iMaPNK
+                </td>
+                <td>
+                    @item.iMaGiay
+                </td>
+                <td>
+                    @item.iSize
+                </td>
+                <td>
+                    @item.iSlNhap
+                </td>
+                <td>
+                    @item.iGiaNhap
+                </td>
+              
+                <td>
+                    <a asp-action="ChiTietPhieuNhapKho_Xoa" asp-route-id="@item.iMaPNK" class="btn btn-danger" onclick="return confirmDelete()">Xóa</a>
+                    <a asp-action="ChiTietPhieuNhapKho_Sua" asp-route-id="@item.iMaPNK" asp-route-MaGiay="@item.iMaGiay" asp-route-Size ="@item.iSize" class="btn btn-primary">Cập nhật</a>
+                   
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="ChiTietPhieuNhapKho_ThemMoi" class="btn btn-primary">Thêm mới</a>
+</p>
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>

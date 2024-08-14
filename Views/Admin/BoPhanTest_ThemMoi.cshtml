@@ -1,0 +1,34 @@
+﻿@model QuanLyBanGiay.Models.BoPhanTest
+@{
+    ViewData["Title"] = "Thêm mới Bộ Phận";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="BoPhanTest_ThemMoi" method="post" asp-controller="Admin">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="iMaBP" class="control-label"></label>
+        <input asp-for="iMaBP" class="form-control" name ="iMaBP"/>
+        <span asp-validation-for="iMaBP" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="sTenBP" class="control-label"></label>
+        <input asp-for="sTenBP" class="form-control" name="sTenBP"/>
+        <span asp-validation-for="sTenBP" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Verified" class="control-label"></label>
+        <input asp-for="Verified" class="form-control" required name="Verified" />
+        <span asp-validation-for="Verified" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Thêm mới" class="btn btn-primary"  />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<NhaCungCap>
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="admin" asp-action="NhaCungCap">
+    <span>
+        Tên nhà cung cấp
+    </span>
+    <input type="text" name="TenNCC"/>
+    <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+
+    <br />
+
+    <br />
+    <table class="table table-bordered ">
+        <tr>
+            <th style="text-align:center">Mã nhà cung cấp</th>
+            <th style="text-align:center">Tên nhà cung cấp</th>
+            <th style="text-align:center">Địa chỉ</th>
+            <th style="text-align:center">Số điện thoại</th>
+            <th style="text-align:center">Thao tác</th>
+
+        </tr>
+        @foreach (var ncc in Model)
+        {
+            <tr>
+                <td>
+                    @ncc.iMaNCC
+                </td>
+                <td>
+                    @ncc.sTenNCC
+                </td>
+                <td>
+                    @ncc.sDiaChi
+                </td>
+                <td>
+                    @ncc.sSDT
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="NhaCungCap_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaNCC" value="@ncc.iMaNCC" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="NhaCungCap_Sua" asp-controller="Admin" asp-route-id="@ncc.iMaNCC" asp-route-TenNCC="@ncc.sTenNCC" asp-route-DiaChi="@ncc.sDiaChi" asp-route-SDT ="@ncc.sSDT" style="text-decoration:none; color:white;" class="btn btn-primary">Cập nhật</a>
+
+                </td>
+
+            </tr>
+        }
+    </table>
+
+</form>
+
+<a href="~/Admin/NhaCungCap_ThemMoi" class="btn btn-primary">Thêm mới</a>
+
+
+<style type="text/css" media="screen and (max-width:959px)">
+ 
+</style>
+
+<style type="text/css" media="screen and (min-width:960px)">
+
+   
+</style>
+

@@ -1,0 +1,39 @@
+﻿<form method="post" asp-action="Giay_Sua_Handle" asp-controller="Admin" enctype="multipart/form-data" class="mt-4">
+    <div class="form-group">
+        <label for="MaGiay">Mã giày</label>
+        <input type="text" class="form-control" value="@ViewBag.MaGiay" name="MaGiay" readonly />
+    </div>
+
+    <div class="form-group">
+        <label for="MaNCC">Mã nhà cung cấp</label>
+        <input type="text" class="form-control" value="@ViewBag.MaNCC" name="MaNCC" />
+    </div>
+    <div class="form-group">
+        <label for="TenGiay">Tên giày</label>
+        <input type="text" class="form-control" value="@ViewBag.TenGiay" name="TenGiay" />
+    </div>
+    <div class="form-group">
+        <label for="Anh">Ảnh giày</label>
+        <input type="file" class="form-control-file" id="Anh" name="Anh" />
+    </div>
+
+    <div class="form-group">
+        <label for="Gia">Giá</label>
+        <input type="text" class="form-control" value="@ViewBag.Gia" name="Gia" />
+    </div>
+
+    <div class="form-group">
+        <label for="MaLG">Mã loại giày</label>
+        <input type="text" class="form-control" value="@ViewBag.MaLG" name="MaLG" />
+    </div>
+
+    <div class="form-group">
+        <label for="GiaKM">Giá KM</label>
+        <input type="text" class="form-control" value="@ViewBag.GiaKM" name="GiaKM" />
+    </div>
+    <div class="form-group">
+        <label for="MoTa">Mô tả</label>
+        <input type="text" class="form-control" value="@ViewBag.MoTa" name="MoTa" />
+    </div>
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+</form>

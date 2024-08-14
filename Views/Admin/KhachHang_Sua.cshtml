@@ -1,0 +1,49 @@
+﻿@* @{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="KhachHang_Sua_Handle" asp-controller="Admin">
+    <span>Mã khách hàng</span>
+    <input type="text" name="MaKH" value="@ViewBag.MaKH" readonly /> <br />
+    <span>Tên khách hàng</span>
+    <input type="text" name="TenKH" /> <br />
+    <span>Địa chỉ</span>
+    <input type="text" name="DiaChi" /> <br />
+    <span>Số điện thoại</span>
+    <input type="text" name="SDT" /> <br />
+    <span>Mã tài khoản</span>
+    <input type="text" name="MaTK" /> <br />
+
+    <input type="submit" value="Cập nhật" />
+</form>
+
+ *@
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="KhachHang_Sua_Handle" asp-controller="Admin" class="mt-4">
+    <div class="form-group">
+        <label for="MaKH">Mã khách hàng</label>
+        <input type="text" class="form-control" name="MaKH" value="@ViewBag.MaKH" readonly />
+    </div>
+    <div class="form-group">
+        <label for="TenKH">Tên khách hàng</label>
+        <input type="text" class="form-control" name="TenKH" />
+    </div>
+    <div class="form-group">
+        <label for="DiaChi">Địa chỉ</label>
+        <input type="text" class="form-control" name="DiaChi" />
+    </div>
+    <div class="form-group">
+        <label for="SDT">Số điện thoại</label>
+        <input type="text" class="form-control" name="SDT" />
+    </div>
+    <div class="form-group">
+        <label for="MaTK">Mã tài khoản</label>
+        <input type="text" class="form-control" name="MaTK" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+</form>

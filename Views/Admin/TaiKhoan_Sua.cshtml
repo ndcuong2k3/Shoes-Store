@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="TaiKhoan_Sua_Handle" asp-controller="Admin">
+    <span>Mã tài khoản</span>
+    <input type="text" name="MaTK" value="@ViewBag.MaTK" readonly /> <br />
+    <span>Tên tài khoản</span>
+    <input type="text" name="TenTK" /> <br />
+    <span>Mật khẩu</span>
+    <input type="password" name="Matkhau" /> <br />
+
+    <input type="submit" value="Cập nhật" />
+</form>

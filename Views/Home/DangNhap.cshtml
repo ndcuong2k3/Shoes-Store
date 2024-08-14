@@ -1,0 +1,105 @@
+﻿@{
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+@if ((ViewBag.TenTK) == null && (ViewBag.NV) == null)
+{
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <body>
+        <div class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6">
+                    <!-- Form for Login -->
+                    <div class="card">
+                        <div class="card-header">
+                            Đăng Nhập
+                        </div>
+                        <div class="card-body">
+                            <form id="loginForm">
+                                <div class="a ">
+                                    <label for="TenTK">Tên tài khoản</label>
+                                    <input type="text" class="form-control" id="TenTK">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Mật khẩu</label>
+                                    <input type="password" class="form-control" id="MatKhau">
+                                </div>
+                                <button type="submit" class="btn btn-primary btnDangNhap">Đăng nhập</button>
+                            </form>
+                            <div>
+                                <i>Bạn mới biết đến chúng tôi</i> <a style=" padding:10px" asp-controller="Home" asp-action="DangKi">
+                                    Đăng kí
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Link Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
+        <script>
+            $(document).ready(function () {
+                $('#loginForm').submit(function (e) {
+                    e.preventDefault();
+                    var username = $('#TenTK').val();
+                    var password = $('#MatKhau').val();
+                    // Thực hiện kiểm tra tên tài khoản và mật khẩu
+                    if (username === "" || password === "") {
+                        $('#errorMessage').text("Vui lòng nhập đầy đủ tên tài khoản và mật khẩu.").show();
+                    } else {
+                        // Gửi yêu cầu đăng nhập tới server
+                        $.post('/Home/DangNhap', {
+                            TenTK: username,
+                            MatKhau: password
+                        }, function (response) {
+                            if (response.success === true) {
+                                // Đăng nhập thành công, thực hiện hành động cần thiết (chuyển hướng, v.v.)
+                                alert('Đăng nhập thành công!');
+                                // Thực hiện chuyển hướng hoặc các hành động khác
+                                window.location.href = '/Home/Index';
+                            } else {
+                                // Đăng nhập không thành công, hiển thị thông báo lỗi
+                                $('#errorMessage').text("Tên tài khoản hoặc mật khẩu không chính xác.").show();
+                            }
+                        });
+                    }
+                });
+            });
+
+        </script>
+    </body>
+
+
+}
+else
+{
+    <center>
+        <div>
+            <p>Bạn đang đăng nhập với tài khoản: @ViewBag.TenTK</p>
+           
+            <a asp-action="DangXuat" asp-controller="Home">Đăng xuất</a>
+        </div>
+
+    </center>
+
+    if(ViewBag.NV != null)
+    {
+        <div style="text-align:center">
+            <a asp-action="Admin" asp-controller="Admin" style="text-align:center" class="btn btn-primary"> Quản lý</a>
+        </div>
+       
+    }
+
+}
+
+
+
+

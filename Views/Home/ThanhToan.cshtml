@@ -1,0 +1,103 @@
+﻿
+
+@model IEnumerable<dynamic>
+@{
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+<h1 style="text-align:center">Thanh Toán</h1>
+
+<p id="maKhachHang" style="display:none">@ViewBag.MaKH_TT</p>
+
+
+<div class="container" style="margin-top: 50px;">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Danh sách mặt hàng</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Ảnh</th>
+                        <th>Tên Giày</th>
+                        <th>Size</th>
+                        <th>Số Lượng</th>
+                        <th>Giá</th>
+                        <th>Thành Tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><img src="@Url.Content(item.AnhGiay)" style="width:80px; height:auto" /></td>
+                            <td>@item.TenGiay</td>
+                            <td>@item.Size</td>
+                            <td>@item.SoLuong</td>
+                            <td>@item.Gia</td>
+                            <td>@(item.Gia * item.SoLuong)</td>
+                        </tr>
+                    }
+                    <tr>
+                        <th colspan="5" style="text-align: right;">Tổng tiền:</th>
+                        <td id="totalPrice"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h2>Thông Tin Thanh Toán</h2>
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Họ và Tên</label>
+                    <input type="text" class="form-control" id="fullname" name="fullname" value="@ViewBag.TenKH_TT" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Địa Chỉ</label>
+                    <input type="text" class="form-control" id="address" name="address" value="@ViewBag.DiaChi_TT" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Số Điện Thoại</label>
+                    <input type="text" class="form-control" id="phone" name="phone" value="@ViewBag.SDT_TT" required>
+                </div>
+                <br />
+               @*  @foreach(var ite in Model){
+                <a asp-controller="home" asp-action="XuLyThanhToan" asp-route-MaGH="@ite.MaGioHang" class="btn btn-primary">
+                </a>
+                } *@
+
+                 <button type="submit" class="btn btn-primary btnDathang" data-MaKH="@ViewBag.MaKH_TT">Đặt hàng</button> 
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    window.onload = function () {
+        var totalPrice = 0;
+        var tableRows = document.querySelectorAll('table tbody tr'); // Get all rows in the table body
+        for (var i = 0; i < tableRows.length; i++) {
+            var row = tableRows[i];
+            var priceCell = row.cells[5]; // Assuming price is in the 6th cell (index 5)
+            if (priceCell) {
+                totalPrice += parseFloat(priceCell.textContent); // Parse price to a number
+            }
+        }
+        document.getElementById('totalPrice').textContent = totalPrice + ' VNĐ';
+    }
+
+
+
+    $(document).on('click', '.btnDathang', function () {
+        var MAKH = parseInt(document.getElementById("maKhachHang").textContent);
+        
+        $.post('/Home/XuLyThanhToan', { MAKH: MAKH }, function (response) {
+            if (response.success) {
+                alert("Đặt hàng thành công")
+                window.location.href = '/Home/Index';
+            } else {
+                alert("aaa");
+            }
+        });
+    });
+</script>

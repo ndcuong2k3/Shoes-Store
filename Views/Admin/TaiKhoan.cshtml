@@ -1,0 +1,113 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<TaiKhoan>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function () {
+        // Lấy danh sách tài khoản khi nhấn nút "Lấy dữ liệu"
+        $("#getDataBtn").click(function () {
+            $.ajax({
+                url: "/Admin/getTaiKhoanList",
+                type: "GET",
+                success: function (data) {
+                    $("#dataTable tbody").empty();
+                    if (data && data.length > 0) {
+                        $.each(data, function (index, taiKhoan) {
+                            var newRow = '<tr><td>' + taiKhoan.iMaTK + '</td><td>' + taiKhoan.sTenTK + '</td><td>' + taiKhoan.sMatkhau + '</td><td><div class="container-btn" style="display:inline-block"><button class="delete-btn btn btn-danger" data-id="' + taiKhoan.iMaTK + '">Xóa</button></div><a href="/Admin/TaiKhoan_Sua?id=' + taiKhoan.iMaTK + '" class="update-btn btn btn-danger">Cập nhật</a></td></tr>';
+                            $("#dataTable tbody").append(newRow);
+                        });
+                        $("#dataTable").show();
+                    } else {
+                        console.log("Dữ liệu rỗng hoặc không tồn tại.");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                }
+            });
+        });
+
+        // Xóa tài khoản khi nhấn nút "Xóa"
+        $(document).on("click", ".delete-btn", function () {
+            var id = $(this).data("id");
+            if (confirm("Bạn có chắc chắn muốn xóa không?")) {
+                $.ajax({
+                    url: "/Admin/TaiKhoan_Xoa",
+                    type: "POST",
+                    data: { MaTK: id },
+                    success: function () {
+                        // Sau khi xóa thành công, làm mới danh sách tài khoản
+                        $("#getDataBtn").click();
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(xhr.responseText);
+                    }
+                });
+            }
+        });
+
+        $("form").submit(function (event) {
+            event.preventDefault(); // Ngăn chặn gửi yêu cầu POST mặc định của form
+            var tenTaiKhoan = $("input[name='TenTaiKhoan']").val(); // Lấy giá trị của ô nhập liệu
+            $.ajax({
+                url: "/Admin/getTaiKhoanTK",
+                type: "GET",
+                data: { MaTK: tenTaiKhoan }, // Truyền giá trị của ô nhập liệu vào tham số MaTK
+                success: function (data) {
+                    $("#dataTable tbody").empty(); // Xóa nội dung của tbody
+                    if (data && data.length > 0) {
+                        $.each(data, function (index, taiKhoan) {
+                            var newRow = '<tr><td>' + taiKhoan.iMaTK + '</td><td>' + taiKhoan.sTenTK + '</td><td>' + taiKhoan.sMatkhau + '</td><td><div class="container-btn" style="display:inline-block"><button class="delete-btn btn btn-danger" data-id="' + taiKhoan.iMaTK + '">Xóa</button></div><a href="/Admin/TaiKhoan_Sua?id=' + taiKhoan.iMaTK + '" class="update-btn btn btn-danger">Cập nhật</a></td></tr>';
+                            $("#dataTable tbody").append(newRow); // Thêm dòng mới vào tbody
+                        });
+                        $("#dataTable").show(); // Hiển thị bảng dữ liệu
+                    } else {
+                        console.log("Không tìm thấy dữ liệu phù hợp.");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error(xhr.responseText);
+                }
+            });
+        });
+
+    });
+
+</script>
+
+<h1 class="text-center font-uppercase font-bold">Danh sách tài khoản</h1>
+
+<form method="post" asp-controller="admin" asp-action="TaiKhoan">
+    <span>
+        Tên tài khoản
+    </span>
+    <input type="text" name="TenTaiKhoan" />
+    <input type="submit" value="Tìm kiếm" />
+</form>
+
+<br />
+
+<br />
+
+<table class="table table-bordered" id="dataTable" style="display: none;">
+    <thead>
+        <tr>
+            <th style="text-align:center">Mã tài khoản</th>
+            <th style="text-align:center">Tên tài khoản</th>
+            <th style="text-align:center">Mật khẩu</th>
+            <th style="text-align:center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Dữ liệu sẽ được thêm vào đây bằng JavaScript -->
+    </tbody>
+</table>
+
+<button id="getDataBtn" class="btn btn-primary">Lấy dữ liệu</button>
+
+<a href="~/Admin/TaiKhoan_ThemMoi" class="btn btn-success">Thêm mới</a>

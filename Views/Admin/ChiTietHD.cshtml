@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<ChiTietHD>
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="admin" asp-action="ChiTietHD">
+    <span>
+        Chi tiết hóa đơn
+    </span>
+    <input type="text" name="MaHD" />
+    <input type="submit" value="Tìm kiếm" />
+
+    <br />
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã hóa đơn</th>
+            <th style="text-align:center">Mã giày</th>
+            <th style="text-align:center">Số lượng</th>
+            <th style="text-align:center">Tiền</th>
+
+        </tr>
+        @foreach (var chiTietHD in Model)
+        {
+            <tr>
+                <td>
+                    @chiTietHD.iMaHD
+                </td>
+                <td>
+                    @chiTietHD.iMaGiay
+                </td>
+                <td>
+                    @chiTietHD.iSl
+                </td>
+                <td>
+                    @chiTietHD.iTien
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="ChiTietHD_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaHD" value="@chiTietHD.iMaHD" />
+                            <input type="hidden" name="MaGiay" value="@chiTietHD.iMaGiay" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="ChiTietHD_Sua" asp-controller="Admin" asp-route-MaHD="@chiTietHD.iMaHD" asp-route-MaGiay="@chiTietHD.iMaGiay" style="text-decoration:none; color:white;" class="border border-2 btn btn-danger">Cập nhật</a>
+                </td>
+            </tr>
+        }
+    </table>
+</form>
+
+<a href="~/Admin/ChiTietHD_ThemMoi">Thêm mới</a>

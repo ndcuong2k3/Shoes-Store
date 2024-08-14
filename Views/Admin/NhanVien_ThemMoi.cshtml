@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="NhanVien_ThemMoi" asp-controller="Admin">
+    <div class="form-group">
+        <label for="MaNhanVien">Mã nhân viên</label>
+        <input type="text" class="form-control" id="MaNhanVien" name="MaNhanVien" />
+    </div>
+    <div class="form-group">
+        <label for="TenNV">Tên nhân viên</label>
+        <input type="text" class="form-control" id="TenNV" name="TenNV" />
+    </div>
+    <div class="form-group">
+        <label for="NgaySinh">Ngày sinh</label>
+        <input type="date" class="form-control" id="NgaySinh" name="NgaySinh" />
+    </div>
+    <div class="form-group">
+        <label for="GioiTinh">Giới tính</label>
+        <input type="text" class="form-control" id="GioiTinh" name="GioiTinh" />
+    </div>
+    <div class="form-group">
+        <label for="QueQuan">Quê quán</label>
+        <input type="text" class="form-control" id="QueQuan" name="QueQuan" />
+    </div>
+    <div class="form-group">
+        <label for="SDT">Số điện thoại</label>
+        <input type="text" class="form-control" id="SDT" name="SDT" />
+    </div>
+    <div class="form-group">
+        <label for="LuongCB">Lương cơ bản</label>
+        <input type="number" class="form-control" id="LuongCB" name="LCB" />
+    </div>
+    <div class="form-group">
+        <label for="HSL">Hệ số lương</label>
+        <input type="number" class="form-control" id="HSL" name="HSL" />
+    </div>
+    <div class="form-group">
+        <label for="PC">Phụ cấp</label>
+        <input type="number" class="form-control" id="PC" name="PC" />
+    </div>
+    <div class="form-group">
+        <label for="MaBP">Mã bộ phận</label>
+        <input type="number" class="form-control" id="MaBP" name="MaBP" />
+    </div>
+    <div class="form-group">
+        <label for="NgayVaoLam">Ngày vào làm</label>
+        <input type="date" class="form-control" id="NgayVaoLam" name="NgayVaoLam" />
+    </div>
+    <div class="form-group">
+        <label for="MaTK">MaTK</label>
+        <input type="number" class="form-control" id="MaTK" name="MaTK" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
+</form>

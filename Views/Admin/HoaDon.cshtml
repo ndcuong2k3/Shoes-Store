@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<HoaDon>
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="admin" asp-action="HoaDon">
+    <span>
+        Mã hóa đơn
+    </span>
+    <input type="text" name="MaHD" />
+    <input type="submit" value="Tìm kiếm" />
+
+    <br />
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã hóa đơn</th>
+            <th style="text-align:center">Mã nhân viên</th>
+            <th style="text-align:center">Mã khách hàng</th>
+            <th style="text-align:center">Ngày lập</th>
+
+        </tr>
+        @foreach (var hd in Model)
+        {
+            <tr>
+                <td>
+                    @hd.iMaHD
+                </td>
+                <td>
+                    @hd.iMaNV
+                </td>
+                <td>
+                    @hd.iMaKH
+                </td>
+                <td>
+                    @hd.dNgayLap.ToString("yyyy-MM-dd")
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="HoaDon_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaHD" value="@hd.iMaHD" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="HoaDon_Sua" asp-controller="Admin" asp-route-id="@hd.iMaHD" style="text-decoration:none; color:white;" class="border border-2 btn btn-danger">Cập nhật</a>
+                </td>
+            </tr>
+        }
+    </table>
+</form>
+
+<a href="~/Admin/HoaDon_ThemMoi">Thêm mới</a>

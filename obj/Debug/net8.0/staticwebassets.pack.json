@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyBanGiay.bundle.scp.css",
+      "PackagePath": "staticwebassets\\QuanLyBanGiay.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\2022-09-09.png",
+      "PackagePath": "staticwebassets\\image\\2022-09-09.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\2022-09-13.png",
+      "PackagePath": "staticwebassets\\image\\2022-09-13.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Advangtage Shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Advangtage Shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Aosomi.png",
+      "PackagePath": "staticwebassets\\image\\Aosomi.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Bravada shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Bravada shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Courtphase shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Courtphase shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Forum premiere shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Forum premiere shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Jordan MA2.png",
+      "PackagePath": "staticwebassets\\image\\Jordan MA2.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Lite Racer Rebold.jpg",
+      "PackagePath": "staticwebassets\\image\\Lite Racer Rebold.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\NguyenDucCuong_Lichhoc.png",
+      "PackagePath": "staticwebassets\\image\\NguyenDucCuong_Lichhoc.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nike Air Force 1 07.png",
+      "PackagePath": "staticwebassets\\image\\Nike Air Force 1 07.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nike Air Max 90.png",
+      "PackagePath": "staticwebassets\\image\\Nike Air Max 90.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nike Air Max Dawn.png",
+      "PackagePath": "staticwebassets\\image\\Nike Air Max Dawn.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nike Air Max SC.png",
+      "PackagePath": "staticwebassets\\image\\Nike Air Max SC.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nike Dunk High Retro SE.png",
+      "PackagePath": "staticwebassets\\image\\Nike Dunk High Retro SE.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nike Dunk Low By You.png",
+      "PackagePath": "staticwebassets\\image\\Nike Dunk Low By You.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\NikeAirForce107LV8.png",
+      "PackagePath": "staticwebassets\\image\\NikeAirForce107LV8.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Advangtage Shoes 1800k.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Advangtage Shoes 1800k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Bravada shoes 1500k.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Bravada shoes 1500k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Courtphase shoes 1800.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Courtphase shoes 1800.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Lite Racer 3.0 Shoes 1500.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Lite Racer 3.0 Shoes 1500.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Lite Racer Rebold Shoes 1800.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Lite Racer Rebold Shoes 1800.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000 - 2.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Racer Tr21 Shoes 2000 - 2.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Racer Tr21 Shoes 2000.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Nu\\Roguera shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Nu\\Roguera shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Picture1.png",
+      "PackagePath": "staticwebassets\\image\\Picture1.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Picture2.png",
+      "PackagePath": "staticwebassets\\image\\Picture2.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Picture3.png",
+      "PackagePath": "staticwebassets\\image\\Picture3.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Racer Tr21 Shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Racer Tr21 Shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Retropy E5 shoes 2.jpg",
+      "PackagePath": "staticwebassets\\image\\Retropy E5 shoes 2.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Retropy E5 shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Retropy E5 shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Retropy f2 shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Retropy f2 shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Retropy p9 shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Retropy p9 shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Screenshot 2023-03-27 095954.png",
+      "PackagePath": "staticwebassets\\image\\Screenshot 2023-03-27 095954.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Screenshot 2024-02-02 075413.png",
+      "PackagePath": "staticwebassets\\image\\Screenshot 2024-02-02 075413.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Screenshot 2024-02-13 110108.png",
+      "PackagePath": "staticwebassets\\image\\Screenshot 2024-02-13 110108.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Screenshot 2024-02-17 095858.png",
+      "PackagePath": "staticwebassets\\image\\Screenshot 2024-02-17 095858.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Screenshot 2024-02-17 100415.png",
+      "PackagePath": "staticwebassets\\image\\Screenshot 2024-02-17 100415.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Advangtage Shoes 1800k.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Advangtage Shoes 1800k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Bravada shoes 1500k.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Bravada shoes 1500k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Courtphase shoes 1800.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Courtphase shoes 1800.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Forum premiere shoes - 4800k.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Forum premiere shoes - 4800k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Jordan MA2.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Jordan MA2.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Lite Racer 3.0 Shoes 1500.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Lite Racer 3.0 Shoes 1500.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\NMD_S1.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\NMD_S1.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Nike Air Force 1 '07 LV8 - 3240k.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Nike Air Force 1 '07 LV8 - 3240k.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Nike Air Force 1 - 2649k.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Nike Air Force 1 - 2649k.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Nike Air Max 90.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Nike Air Max 90.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Nike Air Max Dawn - 3519k.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Nike Air Max Dawn - 3519k.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Nike Air Max SC - 2189k.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Nike Air Max SC - 2189k.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Nike Dunk High Retro SE.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Nike Dunk High Retro SE.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Nike Dunk Low By You - 3519k.png",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Nike Dunk Low By You - 3519k.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k - 2.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Retropy E5 shoes 3300k - 2.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Retropy E5 shoes 3300k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Retropy f2 shoes 2400k.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Retropy f2 shoes 2400k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Retropy p9 shoes 4200k.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Retropy p9 shoes 4200k.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Ultraboost 22 Shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Ultraboost 22 Shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Ultraboost 22 W.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Ultraboost 22 W.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Ultraboost 22 heat.rdy.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Ultraboost 22 heat.rdy.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Sneaker\\Ultraboost 5.0 DNA.jpg",
+      "PackagePath": "staticwebassets\\image\\Sneaker\\Ultraboost 5.0 DNA.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\TTHCM.png",
+      "PackagePath": "staticwebassets\\image\\TTHCM.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Ultraboost 22 Shoes.jpg",
+      "PackagePath": "staticwebassets\\image\\Ultraboost 22 Shoes.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Ultraboost 22 W.jpg",
+      "PackagePath": "staticwebassets\\image\\Ultraboost 22 W.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Ultraboost 22 heat.rdy.jpg",
+      "PackagePath": "staticwebassets\\image\\Ultraboost 22 heat.rdy.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\Ultraboost 5.0 DNA.jpg",
+      "PackagePath": "staticwebassets\\image\\Ultraboost 5.0 DNA.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\anhthu1.png",
+      "PackagePath": "staticwebassets\\image\\anhthu1.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\as.png",
+      "PackagePath": "staticwebassets\\image\\as.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\banner.png",
+      "PackagePath": "staticwebassets\\image\\banner.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\giay1.jpg",
+      "PackagePath": "staticwebassets\\image\\giay1.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\giay2.jpg",
+      "PackagePath": "staticwebassets\\image\\giay2.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\hvltb4.png",
+      "PackagePath": "staticwebassets\\image\\hvltb4.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\hvltbt4.png",
+      "PackagePath": "staticwebassets\\image\\hvltbt4.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\hvltl3t32.png",
+      "PackagePath": "staticwebassets\\image\\hvltl3t32.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\picture4.png",
+      "PackagePath": "staticwebassets\\image\\picture4.png"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\image\\planet9_Wallpaper_5000x2813.jpg",
+      "PackagePath": "staticwebassets\\image\\planet9_Wallpaper_5000x2813.jpg"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\HOU\\2023-2024\\Kì II\\LTWNC\\QuanLyBanGiay (1) (1)\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuanLyBanGiay.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QuanLyBanGiay.props",
+      "PackagePath": "build\\QuanLyBanGiay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QuanLyBanGiay.props",
+      "PackagePath": "buildMultiTargeting\\QuanLyBanGiay.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QuanLyBanGiay.props",
+      "PackagePath": "buildTransitive\\QuanLyBanGiay.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

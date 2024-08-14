@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- Kho.cshtml: -->
+@model List<Kho>
+
+<!-- Phần hiển thị danh sách Kho -->
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã NCC</th>
+            <th style="text-align:center">Mã Giày</th>
+            <th style="text-align:center">Size</th>
+            <th style="text-align:center">Số Lượng Kho</th>
+            <th style="text-align:center">Giá Nhập</th>
+            <th style="text-align:center">Thao tác</th>
+        </tr>
+        @foreach (var kho in Model)
+        {
+            <tr>
+                <td>@kho.iMaNCC</td>
+                <td>@kho.iMaGiay</td>
+                <td>@kho.iSize</td>
+                <td>@kho.iSoLuongKho</td>
+                <td>@kho.iGiaNhap</td>
+                <td>
+                    <!-- Form xóa -->
+                    <form method="post" asp-controller="Admin" asp-action="Kho_Xoa" onsubmit="return confirmDelete();">
+                        <input type="hidden" name="MaNCC" value="@kho.iMaNCC" />
+                        <input type="hidden" name="MaGiay" value="@kho.iMaGiay" />
+                        <input type="submit" value="Xóa" class="btn btn-danger" />
+                        <a asp-action="Kho_Sua" asp-controller="Admin" asp-route-MaNCC="@kho.iMaNCC" asp-route-MaGiay="@kho.iMaGiay" 
+                        asp-route-Size="@kho.iSize" asp-route-SoLuong="@kho.iSoLuongKho" asp-route-GiaNhap="@kho.iGiaNhap" class="btn btn-primary">Sửa</a>
+                    </form>
+                    
+                    
+                   
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>Không có dữ liệu.</p>
+}
+
+<!-- Link thêm mới -->
+<a asp-action="Kho_ThemMoi" asp-controller="Admin" class="btn btn-success">Thêm mới</a>
+
+
+

@@ -1,0 +1,287 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyBanGiay
+build_property.RootNamespace = QuanLyBanGiay
+build_property.ProjectDir = D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\HOU\2023-2024\Kì II\LTWNC\QuanLyBanGiay (1) (1)
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/BoPhan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9QaGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/BoPhanTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9QaGFuVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/BoPhanTest_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9QaGFuVGVzdF9UaGVtTW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/BoPhan_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9QaGFuX1N1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/BoPhan_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9QaGFuX1RoZW1Nb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/BoPhan_Xoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9QaGFuX1hvYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/ChiTietHD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldEhELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/ChiTietHD_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldEhEX1N1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/ChiTietHD_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldEhEX1RoZW1Nb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/ChiTietPhieuNhapKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldFBoaWV1TmhhcEtoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/ChiTietPhieuNhapKho_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldFBoaWV1TmhhcEtob19TdWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/ChiTietPhieuNhapKho_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldFBoaWV1TmhhcEtob19UaGVtTW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/DonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Giay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2lheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Giay_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2lheV9TdWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Giay_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2lheV9UaGVtTW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Giay_Xoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2lheV9Yb2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/HoaDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9hRG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/HoaDon_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9hRG9uX1N1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/HoaDon_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9hRG9uX1RoZW1Nb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/KhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2hhY2hIYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/KhachHang_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2hhY2hIYW5nX1N1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/KhachHang_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2hhY2hIYW5nX1RoZW1Nb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Kho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2hvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Kho_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2hvX1N1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Kho_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2hvX1RoZW1Nb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/Kho_Xoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cS2hvX1hvYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/LoaiGiay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9haUdpYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/LoaiGiay_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9haUdpYXlfU3VhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/LoaiGiay_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9haUdpYXlfVGhlbU1vaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/LuuFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTHV1RmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/MemoryCache.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWVtb3J5Q2FjaGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/NhaCungCap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmhhQ3VuZ0NhcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/NhaCungCap_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmhhQ3VuZ0NhcF9TdWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/NhaCungCap_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmhhQ3VuZ0NhcF9UaGVtTW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/NhaCungCap_Xoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmhhQ3VuZ0NhcF9Yb2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/NhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmhhblZpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/NhanVien_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmhhblZpZW5fU3VhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/NhanVien_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmhhblZpZW5fVGhlbU1vaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/PhieuNhapKho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGhpZXVOaGFwS2hvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/PhieuNhapKho_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGhpZXVOaGFwS2hvX1N1YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/PhieuNhapKho_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGhpZXVOaGFwS2hvX1RoZW1Nb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/PhieuNhapKho_Xoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGhpZXVOaGFwS2hvX1hvYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/TaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGFpS2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/TaiKhoan_Sua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGFpS2hvYW5fU3VhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/TaiKhoan_ThemMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGFpS2hvYW5fVGhlbU1vaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Admin/XemAnh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWGVtQW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/ChiTietGiay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlUaWV0R2lheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/DangKi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYW5nS2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/DangNhap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYW5nTmhhcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/GiamGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHaWFtR2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/GioHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHaW9IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/Nam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/Nu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Home/ThanhToan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFuaFRvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Shared/CSSFile/_AdminLayout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENTU0ZpbGVcX0FkbWluTGF5b3V0Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Shared/_IndexLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbmRleExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HOU/2023-2024/Kì II/LTWNC/QuanLyBanGiay (1) (1)/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gtd913gusf

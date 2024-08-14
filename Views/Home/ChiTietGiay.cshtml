@@ -1,0 +1,122 @@
+﻿@{
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+@model Giay
+
+
+    <style>
+        /* Custom styles */
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .image-container img {
+                max-width: 100%;
+                max-height: 300px;
+            }
+    </style>
+
+
+    <div class="container">
+        <h1>Chi Tiết Giày</h1>
+        <hr />
+        <div class="row">
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="@Url.Content(Model.sImageUrl)" alt="@Model.sTenGiay"@*  class="img-fluid" *@ />
+                </div>
+
+
+                <h4>@Model.sTenGiay</h4>
+                <p>@Model.sMota</p>
+            </div>
+            <div class="col-md-6">
+                <form>
+                <div class="mb-3">
+                    <p>Giá: @Model.iGiaKM VNĐ</p>
+                    <label for="size" class="form-label">Size</label>
+                    <select class="form-select" id="size" name="size">
+                        @foreach (var size in ViewBag.DanhSachSize)
+                        {
+                            <option value="@size">@size</option>
+                        }
+                    </select>
+                </div>
+
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Số Lượng</label>
+                        <input type="number" class="form-control" id="quantity" min="1" value="1">
+                    </div>
+                    <button type="submit" class="btn btn-primary button-add-cart" data-magiay="@Model.iMaGiay" data-soluong ="" data-size="" data-imageUrl ="@Model.sImageUrl">Thêm vào Giỏ Hàng</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+   
+    document.addEventListener("DOMContentLoaded", function () {
+        // Lấy thẻ input số lượng
+        var quantityInput = document.getElementById("quantity");
+
+        // Lấy thẻ select chứa danh sách size
+        var sizeSelect = document.getElementById("size");
+
+        // Lấy nút "Thêm vào Giỏ Hàng"
+        var addToCartButton = document.querySelector(".button-add-cart");
+
+        var defaultQuantityValue = quantityInput.value;
+        var defaultSizeValue = sizeSelect.value;
+
+        // Gán giá trị mặc định vào thuộc tính data-soluong và data-size của nút "Thêm vào Giỏ Hàng"
+        addToCartButton.setAttribute("data-soluong", defaultQuantityValue);
+        addToCartButton.setAttribute("data-size", defaultSizeValue);
+
+        // Thêm sự kiện change cho input số lượng
+        quantityInput.addEventListener("change", function () {
+            // Lấy giá trị của ô nhập liệu số lượng
+            var quantityValue = quantityInput.value;
+
+            // Gán giá trị của ô nhập liệu vào thuộc tính data-soluong của nút "Thêm vào Giỏ Hàng"
+            addToCartButton.setAttribute("data-soluong", quantityValue);
+        });
+
+        // Thêm sự kiện change cho select chứa danh sách size
+        sizeSelect.addEventListener("change", function () {
+            // Lấy giá trị của ô nhập liệu "Size"
+            var sizeValue = sizeSelect.value;
+
+            // Gán giá trị của ô nhập liệu vào thuộc tính data-size của nút "Thêm vào Giỏ Hàng"
+            addToCartButton.setAttribute("data-size", sizeValue);
+        });
+    });
+
+
+    $(function () {
+        $('.button-add-cart').click(function () {
+            var productId = $(this).data('magiay');
+            var soluong = $(this).data('soluong');
+            var size = $(this).data('size');
+            // alert(size);
+            // alert(soluong);
+            var ImgUrl = $(this).data('imageUrl');
+
+            // Gửi mã sản phẩm productId đến server để thêm vào giỏ hàng
+            $.post('/Home/GioHang_Them_CT', { productId: productId, soluong: soluong, size: size    /* , imageUrl: ImgUrl  */ }, function (response) {
+                if (response.success) {
+                    alert('Đã thêm sản phẩm vào giỏ hàng!');
+                } else {
+                    if (response.message == "TenTK") {
+                        alert('Đăng nhập để thêm sản phẩm vào giỏ hàng!');
+                        window.location.href = '/Home/DangNhap';
+                    }
+                    // alert('Thêm sản phẩm vào giỏ hàng thất bại!');
+                }
+            });
+        });
+    });
+
+        </script>

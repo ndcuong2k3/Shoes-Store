@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<KhachHang>
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="Admin" asp-action="KhachHang">
+    <span>
+        Tên khách hàng
+    </span>
+    <input type="text" name="TenKH" />
+    <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+
+    <br />
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã khách hàng</th>
+            <th style="text-align:center">Tên khách hàng</th>
+            <th style="text-align:center">Địa chỉ</th>
+            <th style="text-align:center">Số điện thoại</th>
+            <th style="text-align:center">Tài Khoản</th>
+
+        </tr>
+        @foreach (var kh in Model)
+        {
+            <tr>
+                <td>
+                    @kh.iMaKH
+                </td>
+                <td>
+                    @kh.sTenKH
+                </td>
+                <td>
+                    @kh.sDiaChi
+                </td>
+                <td>
+                    @kh.sSDT
+                </td>
+                <td>
+                    @kh.iMaTK
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="KhachHang_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="id" value="@kh.iMaKH" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a href="@Url.Action("KhachHang_Sua", "Admin", new { id = kh.iMaKH })" style="text-decoration:none; color:white;" class="border border-2 btn btn-primary">Cập nhật</a>
+                </td>
+            </tr>
+        }
+    </table>
+</form>
+
+<a href="@Url.Action("KhachHang_ThemMoi", "Admin")" class="btn btn-primary">Thêm mới</a>

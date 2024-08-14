@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<LoaiGiay>
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="admin" asp-action="LoaiGiay">
+    <span>
+        Tên loại giày
+    </span>
+    <input type="text" name="TenLoaiGiay" />
+    <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+
+    <br />
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã loại giày</th>
+            <th style="text-align:center">Tên loại giày</th>
+
+
+        </tr>
+        @foreach (var lg in Model)
+        {
+            <tr>
+                <td>
+                    @lg.iMaLoaiGiay
+                </td>
+                <td>
+                    @lg.sTenLoaiGiay
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="LoaiGiay_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaLoaiGiay" value="@lg.iMaLoaiGiay" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="LoaiGiay_Sua" asp-controller="Admin" asp-route-id="@lg.iMaLoaiGiay" style="text-decoration:none; color:white;" class="border border-2 btn btn-primary">Cập nhật</a>
+
+                </td>
+
+            </tr>
+        }
+    </table>
+
+</form>
+
+<a href="~/Admin/LoaiGiay_ThemMoi" class="btn btn-primary">Thêm mới</a>

@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="LoaiGiay_ThemMoi" method="post" asp-controller="Admin">
+    <span>Mã loại giày</span>
+    <input type="text" name="MaLoaiGiay" /> <br />  <br />
+    <span>Tên loại giày</span>
+    <input type="text" name="TenLoaiGiay" /> <br />  <br />
+    <br />
+    <input type="submit" value="Thêm mới" />
+</form>

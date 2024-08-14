@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<h2 style="text-align:center">Chỉnh sửa thông tin nhà cung cấp</h2>
+<form method="post" asp-action="NhaCungCap_Sua_Handle" asp-controller="Admin">
+    <div class="form-group">
+        <label for="MaNCC">Mã nhà cung cấp</label>
+        <input type="text" class="form-control" id="MaNCC" name="MaNCC" value="@ViewBag.MaNCC" readonly />
+    </div>
+    <div class="form-group">
+        <label for="TenNCC">Tên nhà cung cấp</label>
+        <input type="text" class="form-control" id="TenNCC" name="TenNCC" value="@ViewBag.TenNCC" />
+    </div>
+    <div class="form-group">
+        <label for="DiaChi">Địa chỉ</label>
+        <input type="text" class="form-control" id="DiaChi" name="DiaChi" value="@ViewBag.DiaChi" />
+    </div>
+    <div class="form-group">
+        <label for="SDT">Số điện thoại</label>
+        <input type="text" class="form-control" id="SDT" name="SDT" value="@ViewBag.SDT" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
+</form>

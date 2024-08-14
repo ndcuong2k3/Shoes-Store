@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<BoPhanTest>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="admin" asp-action="BoPhanTest">
+    <div class="BP-container">
+        <span>
+            Tên Bộ phận
+        </span>
+        <input type="text" name="TenBP" />
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary btnsubmit" />
+
+    </div>
+    <br />
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã BP</th>
+            <th style="text-align:center">Tên BP</th>
+            <th style="text-align:center">Verified</th>
+            <th style="text-align:center">Thao tác</th>
+
+        </tr>
+        @foreach (BoPhanTest bp in Model)
+        {
+            <tr>
+                <td>
+                    @bp.iMaBP
+                </td>
+                <td>
+                    @bp.sTenBP
+                </td>
+                <td>
+                    @bp.Verified
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="BoPhanTest_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaBP" value="@bp.iMaBP" />
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="BoPhanTest_Sua" asp-controller="Admin" asp-route-id="@bp.iMaBP" asp-route-tenbp="@bp.sTenBP" style="text-decoration:none; color:white;" class="btn btn-primary">Cập nhật</a>
+
+                </td>
+
+            </tr>
+        }
+    </table>
+
+</form>
+
+<a href="~/Admin/BoPhanTest_ThemMoi" class="btn btn-primary">Thêm mới</a>
+
+<style type="text/css" media="screen and (min-width: 768px)">
+    .table tr {
+        display: inline-table;
+        width: 33.33%; 
+       /*  float: left;  */
+    } 
+</style>
+
+<style type="text/css" media="screen and (max-width:767px)">
+    .table tr {
+        display: block; /* Hiển thị mỗi hàng trên một dòng */
+        width: 100%; /* Chiều rộng của mỗi hàng */
+        clear: both; /* Xóa float */
+    }
+</style>
+
+

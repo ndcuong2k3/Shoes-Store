@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "~/Views/Shared/_IndexLayout.cshtml";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<h2 style="text-align:center">Đăng ký</h2>
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <form class="border p-4">
+            <div class="form-group">
+                <label for="sTenKH">Họ và tên</label>
+                <input type="text" class="form-control" id="sTenKH" name="TenKH" placeholder="Nhập tên" required>
+            </div>
+            <div class="form-group">
+                <label for="sDiaChi">Địa chỉ</label>
+                <input type="text" class="form-control" id="sDiaChi" name="DiaChi" placeholder="Nhập địa chỉ" required>
+            </div>
+            <div class="form-group">
+                <label for="sSDT">Số điện thoại</label>
+                <input type="text" class="form-control" id="sSDT" name="SDT" placeholder="Nhập số điện thoại" required>
+            </div>
+            <div class="form-group">
+                <label for="TenTK">Tài khoản</label>
+                <input type="text" class="form-control" id="TenTK" name="TenTK" placeholder="Nhập tên tài khoản" required>
+            </div>
+            <div class="form-group">
+                <label for="MatKhau">Mật khẩu</label>
+                <input type="password" class="form-control" id="MatKhau" name="Matkhau" required>
+            </div>
+            <button type="submit" class="btn btn-primary btnDangKy">Đăng ký</button>
+        </form>
+    </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<div id="errorMessageTK" class="alert alert-danger" style="display: none;">Tên tài khoản đã tồn tại. Vui lòng chọn tên tài khoản khác</div>
+<div id="errorMessageSDT" class="alert alert-danger" style="display: none;">Số điện thoại này đã được đăng kí trước đó</div>
+
+<script>
+    $(function () {
+        $('.btnDangKy').click(function (e) {
+            // Ngăn chặn hành động mặc định của nút submit
+            e.preventDefault();
+
+            // Lấy dữ liệu từ các trường input
+            var tenKH = $('#sTenKH').val();
+            var diaChi = $('#sDiaChi').val();
+            var sdt = $('#sSDT').val();
+            var tenTK = $('#TenTK').val();
+            var matKhau = $('#MatKhau').val();
+
+            // Gửi dữ liệu đến action DangKi bằng phương thức POST
+            $.post('/Home/DangKi', {
+                TenKH: tenKH,
+                DiaChi: diaChi,
+                SDT: sdt,
+                TenTK: tenTK,
+                MatKhau: matKhau
+            }, function (response) {
+                if (response.success) {
+                    // Xử lý khi đăng ký thành công
+                    alert('Đăng ký thành công!');
+                    window.location.href = '/Home/Index'; // Chuyển hướng đến trang chính sau khi đăng ký thành công
+                } else {
+                    if (response.message === "SDT") {
+
+                        $('#errorMessageSDT').css('display', 'block');
+                    } else if (response.message === "TenTK") {
+
+                        $('#errorMessageTK').css('display', 'block');
+                    }
+                }
+
+            });
+        });
+    });
+</script>

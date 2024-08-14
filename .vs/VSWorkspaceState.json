@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\Controllers",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Admin",
+    "\\Views\\Home",
+    "\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Views\\Admin\\TaiKhoan.cshtml",
+  "PreviewInSolutionExplorer": false
+}
